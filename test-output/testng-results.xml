@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigation to Selenium Easy was successful |]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Demo Site Successfully |]]>
+    </line>
+    <line>
+      <![CDATA[Selected Simple Form Demo from the dropdown list succesfully |]]>
+    </line>
+    <line>
+      <![CDATA[Entered Hi, This is Sandeep into the testbox succesfully |]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Show Message button succesfully |]]>
+    </line>
+    <line>
+      <![CDATA[Message is Verified |]]>
+    </line>
+    <line>
+      <![CDATA[Entered the sum1 value Succesffully | ]]>
+    </line>
+    <line>
+      <![CDATA[Entered the sum2 value Succesffully |]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Total button Succesffully |]]>
+    </line>
+    <line>
+      <![CDATA[Total is verified]]>
+    </line>
+    <line>
+      <![CDATA[Navigation to Selenium Easy was successful |]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Demo Site Successfully |]]>
+    </line>
+    <line>
+      <![CDATA[Navigation to Selenium Easy was successful |]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Demo Site Successfully |]]>
+    </line>
+    <line>
+      <![CDATA[Navigation to Selenium Easy was successful |]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Demo Site Successfully |]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-08-12T13:09:55Z" name="Suite" finished-at="2018-08-12T13:10:55Z" duration-ms="59292">
+    <groups>
+      <group name="input">
+        <method signature="InputForms.validateCheckboxDemo()[pri:2, instance:seleniumEasy.InputForms@592e843a]" name="validateCheckboxDemo" class="seleniumEasy.InputForms"/>
+        <method signature="InputForms.validateDropDownDemo()[pri:4, instance:seleniumEasy.InputForms@592e843a]" name="validateDropDownDemo" class="seleniumEasy.InputForms"/>
+        <method signature="InputForms.validateRadioButtonDemo()[pri:3, instance:seleniumEasy.InputForms@592e843a]" name="validateRadioButtonDemo" class="seleniumEasy.InputForms"/>
+        <method signature="InputForms.validateSimpleFormDemo()[pri:1, instance:seleniumEasy.InputForms@592e843a]" name="validateSimpleFormDemo" class="seleniumEasy.InputForms"/>
+      </group> <!-- input -->
+      <group name="file">
+        <method signature="AlertnModal.testFileDownload()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" name="testFileDownload" class="seleniumEasy.AlertnModal"/>
+      </group> <!-- file -->
+      <group name="alert">
+        <method signature="AlertnModal.testJavascriptAlerts()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" name="testJavascriptAlerts" class="seleniumEasy.AlertnModal"/>
+        <method signature="AlertnModal.testWindowPopup()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" name="testWindowPopup" class="seleniumEasy.AlertnModal"/>
+      </group> <!-- alert -->
+    </groups>
+    <test started-at="2018-08-12T13:09:55Z" name="Test" finished-at="2018-08-12T13:10:55Z" duration-ms="59292">
+      <class name="seleniumEasy.InputForms">
+        <test-method is-config="true" signature="preBoot()[pri:0, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:31Z" name="preBoot" finished-at="2018-08-12T13:10:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preBoot -->
+        <test-method is-config="true" signature="loadSeleniumEasyDemoSite()[pri:0, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:31Z" name="loadSeleniumEasyDemoSite" finished-at="2018-08-12T13:10:32Z" duration-ms="772" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigation to Selenium Easy was successful |]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Demo Site Successfully |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadSeleniumEasyDemoSite -->
+        <test-method signature="validateSimpleFormDemo()[pri:1, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:32Z" name="validateSimpleFormDemo" finished-at="2018-08-12T13:10:34Z" duration-ms="1595" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected Simple Form Demo from the dropdown list succesfully |]]>
+            </line>
+            <line>
+              <![CDATA[Entered Hi, This is Sandeep into the testbox succesfully |]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Show Message button succesfully |]]>
+            </line>
+            <line>
+              <![CDATA[Message is Verified |]]>
+            </line>
+            <line>
+              <![CDATA[Entered the sum1 value Succesffully | ]]>
+            </line>
+            <line>
+              <![CDATA[Entered the sum2 value Succesffully |]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the Total button Succesffully |]]>
+            </line>
+            <line>
+              <![CDATA[Total is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSimpleFormDemo -->
+        <test-method is-config="true" signature="loadSeleniumEasyDemoSite()[pri:0, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:34Z" name="loadSeleniumEasyDemoSite" finished-at="2018-08-12T13:10:34Z" duration-ms="663" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigation to Selenium Easy was successful |]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Demo Site Successfully |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadSeleniumEasyDemoSite -->
+        <test-method signature="validateCheckboxDemo()[pri:2, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:34Z" name="validateCheckboxDemo" finished-at="2018-08-12T13:10:36Z" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckboxDemo -->
+        <test-method is-config="true" signature="loadSeleniumEasyDemoSite()[pri:0, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:36Z" name="loadSeleniumEasyDemoSite" finished-at="2018-08-12T13:10:36Z" duration-ms="658" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigation to Selenium Easy was successful |]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Demo Site Successfully |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadSeleniumEasyDemoSite -->
+        <test-method signature="validateRadioButtonDemo()[pri:3, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:36Z" name="validateRadioButtonDemo" finished-at="2018-08-12T13:10:37Z" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRadioButtonDemo -->
+        <test-method is-config="true" signature="loadSeleniumEasyDemoSite()[pri:0, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:37Z" name="loadSeleniumEasyDemoSite" finished-at="2018-08-12T13:10:38Z" duration-ms="647" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigation to Selenium Easy was successful |]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Demo Site Successfully |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadSeleniumEasyDemoSite -->
+        <test-method signature="validateDropDownDemo()[pri:4, instance:seleniumEasy.InputForms@592e843a]" started-at="2018-08-12T13:10:38Z" name="validateDropDownDemo" finished-at="2018-08-12T13:10:55Z" duration-ms="16770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDropDownDemo -->
+      </class> <!-- seleniumEasy.InputForms -->
+      <class name="seleniumEasy.AlertnModal">
+        <test-method is-config="true" signature="basicSetup()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:09:51Z" name="basicSetup" finished-at="2018-08-12T13:09:55Z" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetup -->
+        <test-method is-config="true" signature="preBoot()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:09:55Z" name="preBoot" finished-at="2018-08-12T13:09:56Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preBoot -->
+        <test-method is-config="true" signature="loadSeleniumEasyDemoSite()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:09:56Z" name="loadSeleniumEasyDemoSite" finished-at="2018-08-12T13:09:59Z" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadSeleniumEasyDemoSite -->
+        <test-method signature="testFileDownload()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:09:59Z" name="testFileDownload" finished-at="2018-08-12T13:10:05Z" duration-ms="6421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileDownload -->
+        <test-method is-config="true" signature="loadSeleniumEasyDemoSite()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:10:05Z" name="loadSeleniumEasyDemoSite" finished-at="2018-08-12T13:10:07Z" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadSeleniumEasyDemoSite -->
+        <test-method signature="testJavascriptAlerts()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:10:07Z" name="testJavascriptAlerts" finished-at="2018-08-12T13:10:08Z" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJavascriptAlerts -->
+        <test-method is-config="true" signature="loadSeleniumEasyDemoSite()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:10:08Z" name="loadSeleniumEasyDemoSite" finished-at="2018-08-12T13:10:09Z" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadSeleniumEasyDemoSite -->
+        <test-method signature="testWindowPopup()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:10:09Z" name="testWindowPopup" finished-at="2018-08-12T13:10:31Z" duration-ms="22688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowPopup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumEasy.AlertnModal@305f031]" started-at="2018-08-12T13:10:55Z" name="tearDown" finished-at="2018-08-12T13:10:56Z" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumEasy.AlertnModal -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

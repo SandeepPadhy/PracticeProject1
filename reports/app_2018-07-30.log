@@ -1,0 +1,21 @@
+"02:38:22:007 | INFO  | seleniumEasy.InputFormsPageFactory | -> Demo site Link is clicked
+""02:38:22:293 | INFO  | seleniumEasy.InputFormsPageFactory | -> Input Form dropdown is clicked
+""02:38:22:728 | INFO  | seleniumEasy.InputFormsPageFactory | -> Simple Form Demo is selected 
+""02:38:22:805 | INFO  | seleniumEasy.InputFormsPageFactory | -> Message: Hi, This is Sandeep passed to the testbox
+""02:38:23:047 | INFO  | seleniumEasy.InputFormsPageFactory | -> Show Message button is clicked
+""02:38:23:069 | INFO  | seleniumEasy.InputForms | -> Message is Verified
+""02:38:23:102 | INFO  | seleniumEasy.InputFormsPageFactory | -> Value: 10 passed to the A textbox
+""02:38:23:161 | INFO  | seleniumEasy.InputFormsPageFactory | -> Value: 22.22 passed to the B textbox
+""02:38:23:405 | INFO  | seleniumEasy.InputFormsPageFactory | -> Total is clicked
+""02:38:23:422 | INFO  | seleniumEasy.InputForms | -> Total is verified
+""02:41:05:284 | INFO  | seleniumEasy.InputFormsPageFactory | -> Demo site Link is clicked
+""02:41:05:573 | INFO  | seleniumEasy.InputFormsPageFactory | -> Input Form dropdown is clicked
+""02:41:06:093 | INFO  | seleniumEasy.InputFormsPageFactory | -> Simple Form Demo is selected 
+""02:41:06:181 | INFO  | seleniumEasy.InputFormsPageFactory | -> Message: Hi, This is Sandeep passed to the testbox
+""02:41:06:439 | INFO  | seleniumEasy.InputFormsPageFactory | -> Show Message button is clicked
+""02:41:06:466 | INFO  | seleniumEasy.InputForms | -> Message is Verified
+""02:41:06:502 | INFO  | seleniumEasy.InputFormsPageFactory | -> Value: 10 passed to the A textbox
+""02:41:06:554 | INFO  | seleniumEasy.InputFormsPageFactory | -> Value: 22.22 passed to the B textbox
+""02:41:06:794 | INFO  | seleniumEasy.InputFormsPageFactory | -> Total is clicked
+""02:41:06:812 | INFO  | seleniumEasy.InputForms | -> Total is verified
+"

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration
+	xmlns="http://logging.apache.org/log4j/2.0/config">
+	<Properties>
+		<Property name="basePath">./reports</Property>
+		<Property name="basicPattern">%d{HH:mm:ss:SSS} | %-5level | %c{2} | -> %msg%n</Property>
+		<Property name="altPattern">%d{HH:mm:ss:SSS} {%t} | %-5level | %C{2}.%M (%F:%L) -%msg%n</Property>
+		<Property name="filePattern">${date:yyyy-MM-dd}</Property>
+		<Property name="classname">classname</Property>
+	</Properties>
+	<Appenders>
+		<RollingFile name="File" fileName="${basePath}/${classname}_${filePattern}.log" filePattern="${basePath}/%d{yyyy-MM-dd-hh-mm}.log.zip">
+			<PatternLayout pattern="${basicPattern}" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"	modulate="true" />
+				<SizeBasedTriggeringPolicy size="100 KB" />
+			</Policies>
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="${basicPattern}" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="TRACE">
+			<AppenderRef ref="Console" />
+		</Root>
+	<Logger name="seleniumEasy" level="INFO" additivity="false">
+	<AppenderRef ref="Console" />
+	</Logger>
+	</Loggers>
+</Configuration>

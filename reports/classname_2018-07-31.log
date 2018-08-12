@@ -1,0 +1,10 @@
+22:19:13:480 | INFO  | seleniumEasy.InputFormsPageFactory | -> Demo site Link is clicked
+22:19:13:809 | INFO  | seleniumEasy.InputFormsPageFactory | -> Input Form dropdown is clicked
+22:19:14:330 | INFO  | seleniumEasy.InputFormsPageFactory | -> Simple Form Demo is selected 
+22:19:14:416 | INFO  | seleniumEasy.InputFormsPageFactory | -> Message: Hi, This is Sandeep passed to the testbox
+22:19:14:713 | INFO  | seleniumEasy.InputFormsPageFactory | -> Show Message button is clicked
+22:19:14:772 | INFO  | seleniumEasy.InputForms | -> Message is Verified
+22:19:14:846 | INFO  | seleniumEasy.InputFormsPageFactory | -> Value: 10 passed to the A textbox
+22:19:14:926 | INFO  | seleniumEasy.InputFormsPageFactory | -> Value: 22.22 passed to the B textbox
+22:19:15:187 | INFO  | seleniumEasy.InputFormsPageFactory | -> Total is clicked
+22:19:15:219 | INFO  | seleniumEasy.InputForms | -> Total is verified
